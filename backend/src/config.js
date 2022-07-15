@@ -7,8 +7,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "Drunk Chameleonz Club";
+const description = "A Collection of 10,000 Chameleonz that enjoy getting waisted and spending friday nights at the bar. Rumors say that they have access to the best cocktails of the whole metaverse. Join us and lets meet at the bar.";
+
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -38,7 +39,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://drunkchameleonzclub.com", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
